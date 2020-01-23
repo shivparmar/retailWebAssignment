@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.example</OriginalElement>
+  <nodes>
+    <node x="422.63368838763574" y="0.0">org.example.model.Category</node>
+    <node x="624.546773182957" y="888.0">org.example.service.OrderService</node>
+    <node x="470.54677318295705" y="888.0">org.example.service.CheckoutService</node>
+    <node x="434.8870509607349" y="469.0">org.example.model.CartItem</node>
+    <node x="40.16666666666674" y="888.0">org.example.util</node>
+    <node x="352.3089181286548" y="1028.0">org.example.service.impl</node>
+    <node x="479.03646616541346" y="146.0">org.example.model.ProductType</node>
+    <node x="484.4286445279864" y="666.0">org.example.model.Cart</node>
+    <node x="105.37674394319129" y="291.0">org.example.model.UserType</node>
+    <node x="182.34035087719292" y="458.0">org.example.model.User</node>
+    <node x="540.5866959064325" y="1178.0">org.example.App</node>
+    <node x="459.53646616541346" y="280.0">org.example.model.Product</node>
+    <node x="859.8783625730991" y="0.0">org.example.AppTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.App" target="org.example.model.User">
+      <point x="-9.333333333333371" y="-15.0" />
+      <point x="566.2533625730991" y="1108.0" />
+      <point x="146.6666666666667" y="1108.0" />
+      <point x="146.6666666666667" y="646.0" />
+      <point x="246.98320802005003" y="646.0" />
+      <point x="-25.85714285714289" y="59.0" />
+    </edge>
+    <edge source="org.example.service.OrderService" target="org.example.model.Product">
+      <point x="29.0" y="-15.0" />
+      <point x="711.546773182957" y="868.0" />
+      <point x="740.4616959064325" y="868.0" />
+      <point x="740.4616959064325" y="438.0" />
+      <point x="590.0364661654135" y="438.0" />
+      <point x="29.0" y="59.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.model.Category">
+      <point x="-32.66666666666663" y="-15.0" />
+      <point x="542.9200292397659" y="1158.0" />
+      <point x="15.666666666666742" y="1158.0" />
+      <point x="15.666666666666742" y="116.0" />
+      <point x="436.25868838763574" y="116.0" />
+      <point x="-40.875" y="48.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.ProductType">
+      <point x="-14.305555555555543" y="-15.0" />
+      <point x="389.50336257309925" y="948.0" />
+      <point x="384.6717731829571" y="948.0" />
+      <point x="384.6717731829571" y="240.0" />
+      <point x="492.7031328320802" y="240.0" />
+      <point x="-68.33333333333331" y="37.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.service.impl">
+      <point x="-25.75" y="15.0" />
+      <point x="378.0589181286548" y="1078.0" />
+      <point x="332.3089181286548" y="1078.0" />
+      <point x="332.3089181286548" y="1043.0" />
+      <point x="-51.5" y="-0.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.Cart">
+      <point x="20.02777777777777" y="-15.0" />
+      <point x="423.8366959064325" y="958.0" />
+      <point x="454.3245509607348" y="958.0" />
+      <point x="454.3245509607348" y="848.0" />
+      <point x="500.84531119465305" y="848.0" />
+      <point x="-82.08333333333337" y="81.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.model.Product">
+      <point x="23.33333333333337" y="-15.0" />
+      <point x="598.9200292397659" y="1138.0" />
+      <point x="775.0450292397659" y="1138.0" />
+      <point x="775.0450292397659" y="418.0" />
+      <point x="648.0364661654135" y="418.0" />
+      <point x="87.0" y="59.0" />
+    </edge>
+    <edge source="org.example.model.Cart" target="org.example.model.User">
+      <point x="-24.625" y="-81.0" />
+      <point x="558.3036445279864" y="616.0" />
+      <point x="350.4117794486215" y="616.0" />
+      <point x="77.57142857142856" y="59.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.Category">
+      <point x="-20.02777777777777" y="-15.0" />
+      <point x="383.78114035087697" y="958.0" />
+      <point x="373.8403508771929" y="958.0" />
+      <point x="373.8403508771929" y="126.0" />
+      <point x="463.50868838763574" y="126.0" />
+      <point x="-13.625" y="48.0" />
+    </edge>
+    <edge source="org.example.model.Product" target="org.example.model.ProductType">
+      <point x="-50.75" y="-59.0" />
+      <point x="510.28646616541346" y="260.0" />
+      <point x="547.3697994987468" y="260.0" />
+      <point x="-13.666666666666629" y="37.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.service.impl">
+      <point x="-4.666666666666629" y="-15.0" />
+      <point x="570.9200292397659" y="1098.0" />
+      <point x="429.5589181286548" y="1098.0" />
+      <point x="25.75" y="15.0" />
+    </edge>
+    <edge source="org.example.model.CartItem" target="org.example.model.Product">
+      <point x="-43.5" y="-48.0" />
+      <point x="478.3870509607349" y="438.0" />
+      <point x="532.0364661654135" y="438.0" />
+      <point x="-29.0" y="59.0" />
+    </edge>
+    <edge source="org.example.model.ProductType" target="org.example.model.Category">
+      <point x="-41.0" y="-37.0" />
+      <point x="520.0364661654135" y="126.0" />
+      <point x="490.75868838763574" y="126.0" />
+      <point x="13.625" y="48.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.UserType">
+      <point x="-37.19444444444446" y="-15.0" />
+      <point x="366.61447368421034" y="988.0" />
+      <point x="171.84035087719292" y="988.0" />
+      <point x="171.84035087719292" y="438.0" />
+      <point x="191.71007727652463" y="438.0" />
+      <point x="12.333333333333343" y="48.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.util">
+      <point x="-14.0" y="-15.0" />
+      <point x="561.5866959064325" y="1118.0" />
+      <point x="64.16666666666674" y="1118.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.model.Cart">
+      <point x="9.333333333333371" y="-15.0" />
+      <point x="584.9200292397659" y="1108.0" />
+      <point x="751.046773182957" y="1108.0" />
+      <point x="751.046773182957" y="858.0" />
+      <point x="632.1786445279864" y="858.0" />
+      <point x="49.25" y="81.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.service.CheckoutService">
+      <point x="0.0" y="-15.0" />
+      <point x="575.5866959064325" y="988.0" />
+      <point x="582.2134398496237" y="988.0" />
+      <point x="44.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.model.ProductType">
+      <point x="32.66666666666663" y="-15.0" />
+      <point x="608.2533625730991" y="1158.0" />
+      <point x="794.5450292397658" y="1158.0" />
+      <point x="794.5450292397658" y="240.0" />
+      <point x="629.3697994987468" y="240.0" />
+      <point x="68.33333333333337" y="37.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.service.OrderService">
+      <point x="42.916666666666686" y="-15.0" />
+      <point x="446.7255847953214" y="998.0" />
+      <point x="643.8801065162904" y="998.0" />
+      <point x="-38.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.example.service.OrderService" target="org.example.model.Cart">
+      <point x="-29.0" y="-15.0" />
+      <point x="653.546773182957" y="868.0" />
+      <point x="599.345311194653" y="868.0" />
+      <point x="16.41666666666663" y="81.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.service.CheckoutService">
+      <point x="31.47222222222223" y="-15.0" />
+      <point x="435.28114035087697" y="978.0" />
+      <point x="492.8801065162904" y="978.0" />
+      <point x="-44.666666666666686" y="15.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.util">
+      <point x="-48.638888888888914" y="-15.0" />
+      <point x="355.1700292397659" y="1008.0" />
+      <point x="112.16666666666674" y="1008.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.example.model.User" target="org.example.model.UserType">
+      <point x="-45.25" y="-59.0" />
+      <point x="227.59035087719292" y="438.0" />
+      <point x="216.3767439431913" y="438.0" />
+      <point x="37.0" y="48.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.CartItem">
+      <point x="14.305555555555543" y="-15.0" />
+      <point x="418.11447368421034" y="948.0" />
+      <point x="436.18566207184597" y="948.0" />
+      <point x="436.18566207184597" y="646.0" />
+      <point x="500.1370509607349" y="646.0" />
+      <point x="-21.75" y="48.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.service.OrderService">
+      <point x="4.666666666666629" y="-15.0" />
+      <point x="580.2533625730991" y="1098.0" />
+      <point x="695.1875730994151" y="1098.0" />
+      <point x="695.1875730994151" y="1008.0" />
+      <point x="721.2134398496237" y="1008.0" />
+      <point x="38.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.example.service.CheckoutService" target="org.example.model.Cart">
+      <point x="0.0" y="-15.0" />
+      <point x="537.546773182957" y="868.0" />
+      <point x="566.5119778613198" y="868.0" />
+      <point x="-16.41666666666663" y="81.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.Product">
+      <point x="-2.861111111111086" y="-15.0" />
+      <point x="401.40452172096906" y="418.0" />
+      <point x="474.03646616541346" y="418.0" />
+      <point x="-87.0" y="59.0" />
+    </edge>
+    <edge source="org.example.App" target="org.example.model.UserType">
+      <point x="-28.0" y="-15.0" />
+      <point x="547.5866959064325" y="1148.0" />
+      <point x="20.33333333333337" y="1148.0" />
+      <point x="20.33333333333337" y="428.0" />
+      <point x="117.7100772765246" y="428.0" />
+      <point x="-61.666666666666686" y="48.0" />
+    </edge>
+    <edge source="org.example.model.Cart" target="org.example.model.CartItem">
+      <point x="73.875" y="-81.0" />
+      <point x="656.8036445279864" y="596.0" />
+      <point x="587.1370509607349" y="596.0" />
+      <point x="65.25" y="48.0" />
+    </edge>
+    <edge source="org.example.util" target="org.example.model.User">
+      <point x="0.0" y="-15.0" />
+      <point x="88.16666666666674" y="636.0" />
+      <point x="221.1260651629072" y="636.0" />
+      <point x="-51.71428571428572" y="59.0" />
+    </edge>
+    <edge source="org.example.service.impl" target="org.example.model.User">
+      <point x="-25.75" y="-15.0" />
+      <point x="378.0589181286548" y="968.0" />
+      <point x="294.22023809523813" y="968.0" />
+      <point x="294.22023809523813" y="646.0" />
+      <point x="298.69749373433575" y="646.0" />
+      <point x="25.857142857142833" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="292.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
