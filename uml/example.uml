@@ -235,7 +235,7 @@
       <point x="25.857142857142833" y="59.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="292.0" />
+  <settings layout="Hierarchic Group" zoom="1" x="229.0" y="292.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
